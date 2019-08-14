@@ -12,6 +12,10 @@ html{
   box-sizing: border-box;
 }
 
+/* -------------------------------------------------
+    HEADER START
+   ------------------------------------------------- */
+
 .header{
   min-height: 198px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
@@ -149,6 +153,14 @@ html{
   padding: 0!important;
 }
 
+/* -------------------------------------------------
+    HEADER END
+   ------------------------------------------------- */
+
+   /* -------------------------------------------------
+       SECOND CONTAINER START
+      ------------------------------------------------- */
+
 #second_container{
   background-color: #fafafa;
   margin: 1em auto;
@@ -165,8 +177,16 @@ html{
   margin-bottom: 30px;
 }
 
+.mini_blocks_news a{
+  width: 292px;
+  height: 292px;
+  display: inline-block;
+}
+
 #news1{
   background: url(../img/news/news1.png) no-repeat;
+  width: 292px;
+  height: 292px;
 }
 #news2{
   background: url(../img/news/news2.png) no-repeat;
@@ -207,6 +227,13 @@ html{
   margin-left: 20px;
 }
 
+.all_text_news{
+  position: absolute;
+  bottom: 3%;
+  text-align: justify;
+  width: 292px;
+}
+
 .first_text, .second_text, .third_text{
   bottom: 0%;
 }
@@ -224,6 +251,14 @@ html{
   position: relative;
 }
 
+
+/* -------------------------------------------------
+    SECOND CONTAINER END
+   ------------------------------------------------- */
+
+   /* -------------------------------------------------
+       bottom button start
+      ------------------------------------------------- */
 #button_bottom{
   width: 124px;
   height: 28px;
@@ -243,14 +278,10 @@ html{
   font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.all_text_news{
-  position: absolute;
-  bottom: 3%;
-  text-align: justify;
-  width: 75%;
-}
+
 
 @media (max-width: 559px) {
   .logo_name, #reminder_data, .numbers_posts_foll, .datapicker{
